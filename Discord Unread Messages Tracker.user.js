@@ -18,6 +18,7 @@
 
     let unreadMessages = {};
 
+    // You can change this functions logic according to your needs. In this case it sends to update endoint at that port
     function sendToServer(data) {
         try {
             GM_xmlhttpRequest({
