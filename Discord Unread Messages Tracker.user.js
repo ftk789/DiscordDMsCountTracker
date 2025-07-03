@@ -8,6 +8,8 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_addStyle
+// @updateURL    https://raw.githubusercontent.com/ftk789/DiscordDMsCountTracker/main/Discord%20Unread%20Messages%20Tracker.user.js
+// @downloadURL  https://raw.githubusercontent.com/ftk789/DiscordDMsCountTracker/main/Discord%20Unread%20Messages%20Tracker.user.js
 // @run-at       document-end
 // ==/UserScript==
 
