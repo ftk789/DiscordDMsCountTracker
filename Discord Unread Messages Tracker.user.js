@@ -18,7 +18,7 @@
 
     let unreadMessages = {};
 
-    function startServer(data) {
+    function sendToServer(data) {
         try {
             GM_xmlhttpRequest({
                 method: "POST",
@@ -31,11 +31,11 @@
                     console.log("Server response: ", response.responseText);
                 },
                 onerror: function(error) {
-                    console.error("Error in startServer: ", error);
+                    console.error("Error in sendToServer: ", error);
                 }
             });
         } catch (error) {
-            console.error("Critical error in startServer: ", error);
+            console.error("Critical error in sendToServer: ", error);
         }
     }
 
@@ -99,7 +99,7 @@
             if (prevData !== newData) {
                 unreadMessages = newUnreadMessages;
                 GM_setValue("unreadData", unreadMessages);
-                startServer(unreadMessages);
+                sendToServer(unreadMessages);
                 console.log("New unread data sent to server.");
             }
         } catch (error) {
