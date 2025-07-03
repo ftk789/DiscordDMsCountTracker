@@ -19,7 +19,8 @@ This setup includes a **userscript** and a **local Node.js server**.
 - Install [Tampermonkey](https://www.tampermonkey.net/)
 - Add the script from:  
   `https://github.com/ftk789/DiscordDMsCountTracker/raw/main/Discord%20Unread%20Messages%20Tracker.user.js`
-  or click [here](https://github.com/ftk789/DiscordDMsCountTracker/raw/main/Discord%20Unread%20Messages%20Tracker.user.js)
+
+or click [here](https://github.com/ftk789/DiscordDMsCountTracker/raw/main/Discord%20Unread%20Messages%20Tracker.user.js)
 
 ### 2. Run Server
 
