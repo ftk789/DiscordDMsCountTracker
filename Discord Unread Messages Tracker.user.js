@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Discord Unread Messages Tracker
-// @namespace    http://ftk.li/
+// @author       ftk789
 // @version      1.3
 // @description  Track unread messages and send them to a local server on DOM change
 // @match        https://discord.com/*
